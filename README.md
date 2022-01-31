@@ -3,7 +3,7 @@ City Weather Application in JavaScript. Country, State and City dynamically drop
 
 Application features are as below:
  - Dynamically Country, State, and City Dropdown List 
- - City Weather Informaiton
+ - City Weather Information
  - Toggle Temperature unit Celsius and Fahrenheit
 
 Tech used :
