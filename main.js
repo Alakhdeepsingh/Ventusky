@@ -64,12 +64,13 @@ document.addEventListener("DOMContentLoaded", async () => {
   
       statesListDropDown.innerHTML = statesOptions;
       statesListDropDown.disabled=false;
+       //as we have disabled in htm so for enabling we will use this line
     }
     });
 
 
     //list cities 
-
+ 
         statesListDropDown.addEventListener("change", async function(){
         const selectedCountryCode=countriesListDropDown.value;
         const selectedStateCode=this.value;
