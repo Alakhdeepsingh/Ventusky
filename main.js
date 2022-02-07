@@ -35,7 +35,7 @@ const getCountries = async (fieldName, ...args) => {
 
 const getWeather = async (cityName, ccode, units = "metric") => {
   const apiEndPoint = `${config.wUrl}weather?q=${cityName},${ccode.toLowerCase()}&APPID=${config.wKey}&units=${units}`;
-  // console.log(apiEndPoint);
+  console.log(apiEndPoint);
   try {
       const response = await fetch(apiEndPoint);
       if (response.status != 200) {
@@ -62,7 +62,7 @@ const getDateTime = (unixTimeStamp) => {
       year: "numeric",
       month: "long",
       day: "numeric",
-  };
+  }; 
   const humanDateFormate = dateObject.toLocaleDateString("en-US", options);
   return humanDateFormate;
 };
@@ -162,6 +162,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   });
   citiesListDropDown.addEventListener("change", async function() {
       const selectedCountryCode = countriesListDropDown.value;
+      //console.log(selectedCountryCode);
       const selectedCity = this.value;
       // console.log(selectedCity);
       weatherDiv.innerHTML = getLoader();
@@ -171,7 +172,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
   });
 
-  //change unit
+  //change unit by clicking on screen
 
   document.addEventListener("click", async (e) => {
       if (e.target.classList.contains("unitlink")) {
