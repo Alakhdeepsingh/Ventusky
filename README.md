@@ -1,10 +1,8 @@
-# Weather-Webapp
-City Weather Application in JavaScript. Country, State and City dynamically dropdown list using JavaScript fetch API. Live example for async/await keywords in javascript.  
+# Ventusky
+Ventusky is the City Weather Application in JavaScript. 
 
-Application features are as below:
- - Dynamically Country, State, and City Dropdown List 
- - City Weather Information
- - Toggle Temperature unit Celsius and Fahrenheit
+• Build a Weather Application using Country State City API and OpenWeatherMap API. 
+• Its feature includes Dynamically Country, State, and City Dropdown List using Javascript fetch API, City Weather Information, and Toggle Temperature unit Celsius and Fahrenheit.
 
 Tech used :
 - JavaScript fundamental
