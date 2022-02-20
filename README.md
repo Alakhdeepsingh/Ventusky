@@ -13,4 +13,4 @@ Tech used :
 - JavaScript Fetch API
 - Async/Await keywords
 
-Visit Website :  https://alakhdeepsingh.github.io/Weather-Webapp/
+Visit Website : https://alakhdeepsingh.github.io/Ventusky/
